@@ -7,6 +7,6 @@
 
 • Calculator:-
 
-<img width="942" height="896" alt="Screenshot 2026-06-19 204457" src="https://github.com/user-attachments/assets/a7b33255-5d61-4f5e-9235-a2ec6a4b6157" /><img width="928" height="901" alt="Screenshot 2026-06-19 204521" src="https://github.com/user-attachments/assets/4c2c50ca-32e6-494c-98e9-bf9795c44363" /><img width="927" height="887" alt="Screenshot 2026-06-19 204531" src="https://github.com/user-attachments/assets/b24476d9-3303-4f41-a11b-980cdee2c8a9" />
+<img width="732" height="400" alt="Screenshot 2026-06-19 204457" src="https://github.com/user-attachments/assets/a7b33255-5d61-4f5e-9235-a2ec6a4b6157" /><img width="732" height="400" alt="Screenshot 2026-06-19 204521" src="https://github.com/user-attachments/assets/4c2c50ca-32e6-494c-98e9-bf9795c44363" /><img width="732" height="400" alt="Screenshot 2026-06-19 204531" src="https://github.com/user-attachments/assets/b24476d9-3303-4f41-a11b-980cdee2c8a9" />
 
 
