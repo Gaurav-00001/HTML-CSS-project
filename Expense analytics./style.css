@@ -1,0 +1,93 @@
+:root {
+    --primary: #6366f1;
+    --bg: #1e293b;
+    --card-bg: #ffffff;
+    --text: #1e293b;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    margin: 0; padding: 0;
+}
+
+body {
+    background-color: var(--primary);
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.container { width: 100%; max-width: 900px; }
+.hidden { display: none !important; }
+
+.card {
+    background: var(--card-bg);
+    margin-bottom: 25px;
+    border-radius: 16px;
+    padding: 25px;
+    box-shadow: 0 10px 35px rgba(0,0,0,0.3);
+}
+
+#auth-section { max-width: 400px; margin: 100px auto; text-align: center; }
+#auth-section input { width: 100%; margin: 10px 0; padding: 12px; border: 1px solid #ddd; border-radius: 8px; }
+
+.btn-center {
+    display: block;
+    margin: 15px auto;
+    width: 100%;
+    max-width: 160px;
+    background: var(--primary);
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.full-btn { max-width: 100%; margin-top: 20px; }
+
+.nav-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px; color: white; }
+.logout-btn { background: none; color: white; border: 1px solid white; padding: 5px 12px; border-radius: 6px; cursor: pointer; }
+
+.tab-group { display: flex; gap: 8px; margin-bottom: 20px; background: #334155; padding: 5px; border-radius: 10px; }
+.tab-btn { flex: 1; padding: 10px; border: none; background: none; color: white; cursor: pointer; border-radius: 8px; }
+.tab-btn.active { background: var(--primary); }
+
+.stats-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 15px; margin-bottom: 20px; }
+.stat-card { background: #f8fafc; padding: 15px; border-radius: 12px; text-align: center; border-bottom: 4px solid var(--primary); }
+
+.input-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 12px; }
+.input-group label { display: block; font-size: 0.85rem; margin-bottom: 5px; font-weight: 600; }
+input, select { width: 100%; padding: 10px; border: 1px solid #cbd5e1; border-radius: 6px; }
+
+.chart-container { position: relative; height: 320px; width: 100%; }
+.toggle-link { color: var(--primary); cursor: pointer; font-weight: bold; text-decoration: underline; }
+
+.del-btn {
+    background-color: #ef4444; /* Red color */
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.75rem;
+    transition: 0.2s;
+}
+
+.del-btn:hover {
+    background-color: #dc2626; /* Darker red on hover */
+}
+
+.expense-list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #f8fafc;
+    padding: 12px;
+    margin-bottom: 8px;
+    border-radius: 8px;
+    border-left: 4px solid var(--primary);
+}
